@@ -1,0 +1,30 @@
+{
+  "name": "express",
+  "version": "4.17.1",
+  "description": "express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node seeds/seed.js",
+    "heroku-postbuild": "npm run seed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bentto90/module-18-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bentto90/module-18-challenge/issues"
+  },
+  "homepage": "https://github.com/Bentto90/module-18-challenge#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^7.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
+
